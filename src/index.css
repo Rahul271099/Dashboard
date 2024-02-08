@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --background-color: #ffff;
+  --sidebar-hover-color: #c5e6ff;
+  --chart-color-1: #30d8c3;
+  --chart-color-2: #2595d1;
+  --placeholder-text-color: #c7c7c7;
+  --highlight-text-color: #78bccb;
+  --title-font: 1.5rem;
+  --subtitle: 0.8rem;
+}

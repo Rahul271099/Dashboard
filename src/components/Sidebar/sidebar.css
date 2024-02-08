@@ -1,0 +1,69 @@
+.sidebar_container {
+  width: 15vw;
+  min-height: 100vh;
+  background-color: var(--background-color);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 25px;
+  border: none;
+  padding: 1rem 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sidebar_contain_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar_contain_wrapper .section_first {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.sidebar_contain_wrapper .section_first p {
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  color: var(--placeholder-text-color);
+}
+.sidebar_contain_wrapper .section_first .lower {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 15px;
+}
+.sidebar_contain_wrapper .section_first .lower a {
+  text-decoration: none;
+  color: var(--placeholder-text-color);
+}
+.sidebar_contain_wrapper .section_first .lower .icon {
+  color: var(--placeholder-text-color);
+}
+.sidebar_contain_wrapper .section_first .lower .links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 0.4rem;
+  gap: 10px;
+  border-radius: 5px;
+  font: 500 0.8rem "poppins";
+}
+.sidebar_contain_wrapper .section_first .lower .active {
+  background-color: var(--sidebar-hover-color);
+}
+.sidebar_contain_wrapper .section_first .lower .active a {
+  color: black;
+}
+.sidebar_contain_wrapper .section_first .lower .active .icon {
+  color: var(--chart-color-2);
+}
+.sidebar_contain_wrapper .section_first .lower .links:hover {
+  background-color: var(--sidebar-hover-color);
+  color: black;
+}
+.sidebar_contain_wrapper .section_first .lower .links:hover a {
+  color: black;
+}
+.sidebar_contain_wrapper .section_first .lower .links:hover .icon {
+  color: var(--chart-color-2);
+}

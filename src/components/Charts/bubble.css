@@ -1,0 +1,50 @@
+.main_chart {
+  width: 100%;
+  min-height: 250px;
+  border: 1px solid #cecece;
+  border-radius: 10px;
+  padding: 1rem;
+}
+.charts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.charts h3 {
+  font: 500 0.9rem "poppins";
+}
+.box > .box_right {
+  font: 500 0.8rem "poppins";
+}
+.charts .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.charts .box .filter_class {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  font: 400 0.9rem "poppins";
+  width: 8vmax;
+  padding: 0.3rem 1rem;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--chart-color-2);
+}
+.charts .box .box_right {
+  display: flex;
+  gap: 10px;
+  padding: 0.2rem 0.4rem;
+  border: 1px solid #c9c9c9;
+  border-radius: 5px;
+}
+.charts .box .box_right :first-child {
+  color: var(--chart-color-2);
+}
+.showallBtn {
+  font: 300 0.5rem "poppins";
+}
